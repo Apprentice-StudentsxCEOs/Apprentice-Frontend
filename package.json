@@ -2,17 +2,21 @@
   "name": "sxc-landing-page",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.562.0",
     "material-symbols": "^0.40.2",
     "next": "16.1.2",
     "react": "19.2.3",
@@ -26,9 +30,18 @@
     "autoprefixer": "^10.4.23",
     "eslint": "^9",
     "eslint-config-next": "16.1.2",
+    "eslint-config-prettier": "^10.1.8",
     "postcss": "^8.5.6",
+    "prettier": "^3.8.0",
     "tailwindcss": "^4.1.18",
-    "tw-animate-css": "^1.4.0",
     "typescript": "^5"
+  },
+  "prettier": {
+    "semi": true,
+    "trailingComma": "es5",
+    "singleQuote": false,
+    "tabWidth": 2,
+    "printWidth": 100,
+    "arrowParens": "avoid"
   }
 }
