@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
 export default function Home() {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -15,7 +15,8 @@ export default function Home() {
               Ready to Shape the Future?
             </h2>
             <p className="text-[#658086] dark:text-gray-400 text-lg max-w-2xl mx-auto">
-              Whether you're an aspiring student leader or a visionary corporation, there's a seat at the table for you.
+              Whether you are an aspiring student leader or a visionary corporation, there is a seat
+              at the table for you.
             </p>
           </div>
 
@@ -30,9 +31,12 @@ export default function Home() {
                   <span className="material-symbols-outlined">person_add</span>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-2xl font-bold text-[#121617] dark:text-white">For Students</h3>
+                  <h3 className="text-2xl font-bold text-[#121617] dark:text-white">
+                    For Students
+                  </h3>
                   <p className="text-[#658086] dark:text-gray-400 leading-relaxed">
-                    Join our community of over 5,000 future leaders. Access exclusive mentorship, workshops, and high-impact networking opportunities.
+                    Join our community of over 5,000 future leaders. Access exclusive mentorship,
+                    workshops, and high-impact networking opportunities.
                   </p>
                 </div>
                 <button className="flex items-center gap-2 bg-primary hover:bg-[#156b7c] text-white px-8 py-4 rounded-lg font-bold transition-all transform hover:scale-[1.02]">
@@ -52,9 +56,12 @@ export default function Home() {
                   <span className="material-symbols-outlined">corporate_fare</span>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-2xl font-bold text-[#121617] dark:text-white">For Partners</h3>
+                  <h3 className="text-2xl font-bold text-[#121617] dark:text-white">
+                    For Partners
+                  </h3>
                   <p className="text-[#658086] dark:text-gray-400 leading-relaxed">
-                    Collaborate with the next generation of top-tier talent. Drive innovation and build your brand presence among elite students globally.
+                    Collaborate with the next generation of top-tier talent. Drive innovation and
+                    build your brand presence among elite students globally.
                   </p>
                 </div>
                 <button className="flex items-center gap-2 bg-[#f0f3f4] dark:bg-zinc-800 hover:bg-gray-200 dark:hover:bg-zinc-700 text-[#121617] dark:text-white px-8 py-4 rounded-lg font-bold transition-all transform hover:scale-[1.02]">
@@ -71,8 +78,12 @@ export default function Home() {
       <div className="w-full max-w-[1280px] px-6 -mb-24 z-20">
         <div className="bg-white dark:bg-zinc-900 rounded-xl p-8 md:p-12 shadow-2xl border border-gray-100 dark:border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex-1 space-y-2 text-center md:text-left">
-            <h4 className="text-2xl font-bold text-[#121617] dark:text-white">Stay Ahead of the Curve</h4>
-            <p className="text-[#658086] dark:text-gray-400">Subscribe for leadership insights and program updates.</p>
+            <h4 className="text-2xl font-bold text-[#121617] dark:text-white">
+              Stay Ahead of the Curve
+            </h4>
+            <p className="text-[#658086] dark:text-gray-400">
+              Subscribe for leadership insights and program updates.
+            </p>
           </div>
           <div className="w-full md:w-auto flex flex-col sm:flex-row gap-3">
             <input
@@ -103,16 +114,26 @@ export default function Home() {
                 <span className="text-xl font-bold tracking-tight">StudentsxCEOs</span>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-                Empowering the next generation of global leaders by bridging the gap between exceptional students and industry pioneers.
+                Empowering the next generation of global leaders by bridging the gap between
+                exceptional students and industry pioneers.
               </p>
               <div className="flex gap-4">
-                <a className="size-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all" href="#">
+                <a
+                  className="size-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all"
+                  href="#"
+                >
                   <span className="material-symbols-outlined text-[20px]">share</span>
                 </a>
-                <a className="size-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all" href="#">
+                <a
+                  className="size-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all"
+                  href="#"
+                >
                   <span className="material-symbols-outlined text-[20px]">photo_camera</span>
                 </a>
-                <a className="size-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all" href="#">
+                <a
+                  className="size-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all"
+                  href="#"
+                >
                   <span className="material-symbols-outlined text-[20px]">alternate_email</span>
                 </a>
               </div>
@@ -122,10 +143,38 @@ export default function Home() {
             <div className="space-y-6">
               <h5 className="text-white font-bold uppercase tracking-widest text-xs">Programs</h5>
               <ul className="space-y-4">
-                <li><a className="text-gray-400 hover:text-primary transition-colors text-sm" href="#">International Student Summit</a></li>
-                <li><a className="text-gray-400 hover:text-primary transition-colors text-sm" href="#">CEO Talks Series</a></li>
-                <li><a className="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Internship Portal</a></li>
-                <li><a className="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Mentorship Program</a></li>
+                <li>
+                  <a
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    href="#"
+                  >
+                    International Student Summit
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    href="#"
+                  >
+                    CEO Talks Series
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    href="#"
+                  >
+                    Internship Portal
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    href="#"
+                  >
+                    Mentorship Program
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -133,10 +182,38 @@ export default function Home() {
             <div className="space-y-6">
               <h5 className="text-white font-bold uppercase tracking-widest text-xs">Company</h5>
               <ul className="space-y-4">
-                <li><a className="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Our Story</a></li>
-                <li><a className="text-gray-400 hover:text-primary transition-colors text-sm" href="#">The Team</a></li>
-                <li><a className="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Partner Network</a></li>
-                <li><a className="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Contact Us</a></li>
+                <li>
+                  <a
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    href="#"
+                  >
+                    Our Story
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    href="#"
+                  >
+                    The Team
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    href="#"
+                  >
+                    Partner Network
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    href="#"
+                  >
+                    Contact Us
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -144,25 +221,53 @@ export default function Home() {
             <div className="space-y-6">
               <h5 className="text-white font-bold uppercase tracking-widest text-xs">Support</h5>
               <ul className="space-y-4">
-                <li><a className="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Privacy Policy</a></li>
-                <li><a className="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Terms of Service</a></li>
-                <li><a className="text-gray-400 hover:text-primary transition-colors text-sm" href="#">FAQ</a></li>
-                <li><a className="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Resource Hub</a></li>
+                <li>
+                  <a
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    href="#"
+                  >
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    href="#"
+                  >
+                    Terms of Service
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    href="#"
+                  >
+                    FAQ
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    href="#"
+                  >
+                    Resource Hub
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
 
           {/* Bottom Bar */}
           <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
-            <p className="text-gray-500 text-sm">
-              © 2026 StudentsxCEOs. All rights reserved.
-            </p>
-            <button 
+            <p className="text-gray-500 text-sm">© 2026 StudentsxCEOs. All rights reserved.</p>
+            <button
               onClick={scrollToTop}
               className="group flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm"
             >
               <span>Back to top</span>
-              <span className="material-symbols-outlined text-sm group-hover:-translate-y-1 transition-transform">arrow_upward</span>
+              <span className="material-symbols-outlined text-sm group-hover:-translate-y-1 transition-transform">
+                arrow_upward
+              </span>
             </button>
           </div>
         </div>
